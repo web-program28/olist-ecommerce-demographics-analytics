@@ -84,5 +84,8 @@ ggplot(data = data_pelanggan, aes(x = fct_infreq(customer_state))) +
   ) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
-3. Geospatial Visualization (Tableau)
+## 3. Geospatial Visualization (Tableau)
 Untuk menjembatani temuan teknis dengan kebutuhan pemangku kepentingan non-teknis, data ditransformasikan ke dalam peta kepadatan wilayah (Choropleth Map) menggunakan skala gradasi Red-Blue Diverging di Tableau:
+
+<img width="1167" height="862" alt="Screenshot 2026-05-28 at 10 27 33" src="https://github.com/user-attachments/assets/b55c3de0-ccda-436b-82e6-171adde3681d" />
+
